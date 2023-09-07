@@ -7,8 +7,8 @@
 
     $time = gmdate('Y-m-d\TH:i:s\Z');
 
-    $githubFileUrl = 'https://github.com/username/repo/blob/main/file_name.ext';
-    $githubRepoUrl = 'https://github.com/username/repo';
+    $githubFileUrl = 'https://github.com/Sirjamesarua/HNG/blob/master/backend.php';
+    $githubRepoUrl = 'https://github.com/Sirjamesarua/HNG';
 
     $response = array(
         "slack_name" => $slackName,
