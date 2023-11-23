@@ -78,6 +78,6 @@ class PersonController extends Controller
     
         $person->delete();
     
-        return response()->json(['message' => 'Person deleted']);
+        return response()->json(['message' => 'Person deleted'],200);
     }
 }
